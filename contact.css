@@ -1,0 +1,147 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f1f6f9; 
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: rgb(10, 92, 164); 
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap:1rem;
+}
+
+.nav-menu li {
+  margin:0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-menu a:hover {
+  background-color: #1e4a7f;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+#contact-form{
+    width:500px;
+    background-image: url(images/newsteth.jpg);
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    position:absolute;
+      padding: 4%;
+      margin-top: 12%;
+      border-radius: 5%;
+      box-shadow:  10px 10px 20px;
+      font-size: 25px;
+      color:rgb(0, 0, 0);
+    }
+
+    label {
+      background-color: aliceblue;
+      border-radius: 10%;
+      padding: 1%;
+    }
+    input{
+      width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 5%;
+        padding-left:10px;
+        border:1px solid #89aef2;
+        border-radius:14px;
+        outline: none;
+        
+
+        }
+      textarea{
+        height:80px;
+        padding-top: 10px;
+        margin-top: 2%;
+        padding-left: 2%;
+        border:1px solid #89aef2;
+        border-radius:14px;
+        width: 400px;
+        
+    }
+
+
+form button{
+    cursor:pointer ;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+form button:hover {
+    background-color: #4685c8;
+}
+
+
+/*footer*/
+footer{
+  padding: 20px 0;
+  background-color:rgb(10, 92, 164);
+  color: white;
+  margin-top: 60%;
+ 
+ 
+}
+footer,.socia-links{
+text-align:center;
+
+}
+h3{
+font-size: 10px;
+margin-bottom: 10px;
+}
+i{
+color: white;
+}
+.fa{
+font-size: 150%
+}
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+
+  #contact-form{
+  object-fit:cover;
+width: 100%;   
+margin-top: 40%;
+  }}

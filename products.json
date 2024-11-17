@@ -1,0 +1,78 @@
+[
+  {
+    "name": "3M Littman Classic III",
+    "description":"More than 2x as loud and Weighs Less, Stainless Steel Black-Finish Chestpiece",
+    "price": 108,
+    "image": "images/1st.jpg"
+  }  ,
+  {
+    "name": "3M Littman Classic II",
+    "description": "Lightest weight of all Littmann adult stethoscopes at just 118 grams with a dual-sided chestpiece",
+    "price":60,
+    "image":"images/2nd.webp"
+
+  } ,
+  {
+    "name":" MDF Acoustica Deluxe Stethoscope",
+    "description": "The MDF Acoustica is a great budget-friendly alternative that delivers impressive acoustic performance",
+    "price":40,
+    "image":"images/3rd.jpeg"
+    } ,
+    {
+      "name": " Omron Sprague Rappaport Stethoscope",
+      "description": "The Omron Sprague Rappaport is a versatile, multi-purpose stethoscope, ideal for general diagnostic purposes",
+      "price":36,
+      "image":"images/4rd.jpeg"
+    } ,
+    {
+      "name": "ADC Adscope 600 Stethoscope",
+      "description": "Known for its durable construction, high-quality materials, and adjustable headset",
+      "price": 80,
+      "image":"images/5th.jpeg"
+    } ,
+    {
+      "name":"Littmann Cardiology III Stethoscope",
+      "description":"Useful in critical care and challenging environments such as the ED, ICU, Cardiac ICU, step-down unit and other dynamic locations",
+      "price": 200,
+      "image":"images/6th.jpeg"
+    },
+    {
+
+      "name": "Littmann 3200 Electronic Stethoscope",
+    "description":"The Littmann 3200 Electronic Stethoscope provides users with a range of turnkey features so you are able to provide your patients with the ultimate care ",
+    "price": 540,
+    "image": "images/replace 2.jpeg"
+  }  ,
+  {
+    "name": "Eko CORE 500™ Digital Stethoscope",
+    "description": "The CORE 500™ improves diagnostic confidence with unmatched audio quality and 3-lead ECG data",
+    "price":350,
+    "image":"images/8th.png"
+
+  } ,
+  {
+    "name":" 3M Littmann Electronic Stethoscope Model 3100",
+    "description": "The 3M Littmann Model 3100 offers exceptional sound quality, noise reduction, and amplification, with the ability to record and save sounds",
+    "price":350,
+    "image":"images/replace.jpeg"
+    } ,
+    {
+      "name": "3M™ Littmann® CORE Digital Stethoscope",
+      "description": "This advanced stethoscope combines the comfort and superior acoustics you trust with cutting-edge digital technology",
+      "price":350,
+      "image":"images/10th.png"
+    } ,
+    {
+      "name": "Stemoscope® PRO Digital Stethoscope",
+      "description": "Directly Streams to Bluetooth Earphones ,Untethered Auscultation Freedom– Not for Hearing Aids",
+      "price": 300,
+      "image":"images/11th.jpeg"
+    } ,
+    {
+      "name":"Eko Duo ECG + Digital Stethoscop",
+      "description":"This Bluetooth enabled all-in-one cardiac exam system combines ECG and stethoscope auscultation to provide more information at a glance",
+      "price": 270,
+      "image":"images/12th.jpeg"
+    }
+
+]

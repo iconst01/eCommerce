@@ -1,0 +1,247 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f1f6f9; 
+  color: #333;
+  line-height: 1.6;
+}
+/* Navbar styles */
+.navbar {
+  background-color: rgb(10, 92, 164); 
+  justify-content: space-between;/* Space items apart */
+  align-items: center;/* Vertically align items in the navbar */
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;/* Allow wrapping for smaller screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Logo styling */
+.navbar .logo img {
+  width: 100px;
+}
+/* Navigation menu styling */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap:1rem;
+}
+/* Navigation links styling */
+.nav-menu li {
+  margin:0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-menu a:hover {
+  background-color: #1e4a7f;
+  border-radius: 5px;
+}
+ /* nav ends here */
+
+ /* Hero text styling */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9e6f2; 
+  padding: 5rem 2rem;
+  text-align: center;
+  
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #0a5ca4;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  color: #115fd1;
+  margin-bottom: 30px;
+}
+
+
+.hero-img {
+  width: 50%;
+  max-height: 500px;
+  object-fit: cover;/* Ensure the image covers the space without stretching */
+  border-radius: 10px;
+  max-width:1000px ;
+
+}
+
+/*Card Design */
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 20px;
+} 
+
+.card {
+  display: flex;
+  flex-direction: column;/* Stack card content vertically */
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;/* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  color: #165798;;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #4580d9;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color:#165798;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #4a7ebd;
+}
+
+/* Video*/
+.stetvideo iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+ 
+}
+/* Contact Card Styling*/
+.cta-button {
+  background-color: #165798;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.cta-button:hover {
+  background-color:  #4a7ebd;
+} 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 20px;
+  background-color: #d9e6f2;
+  align-items: center;
+}
+
+.contact img {
+  width: 25%;
+  border-radius: 10px;
+}
+
+.contact-text {
+  width: 50%;
+  text-align: left;
+}
+
+.contact h2 {
+  font-size: 2.2rem;
+  color: #0a5ca4;
+  margin-bottom: 20px;
+} 
+/*Footer Styling*/
+footer{
+  padding: 20px 0;
+  background-color:rgb(10, 92, 164);
+  color: white;
+ 
+ 
+}
+footer,.socia-links{
+text-align:center;
+}
+.social-links{
+ font-size: 25px;
+ 
+}
+h3{
+  font-size: 12px;
+}
+
+/*media query*/
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+ .product-cards{
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+ }
+
+ .hero{
+  display: flex;
+  flex-wrap: wrap;
+ } 
+
+  .hero-img{
+  margin-top: 15%;
+  margin-left: 30%;
+  
+ }
+
+}
+
+
