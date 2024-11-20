@@ -15,7 +15,7 @@ function loadProducts() {
         //adds 'product-card' class to the new div for styling
         productCard.classList.add("product-card");
 
-        //set the inner html of the producr card, populating the data from the json
+        //set the inner html of the product card, populating the data from the json
         productCard.innerHTML = `  
                     <img src="${product.image}" alt="${product.name}"> //
                     <h3>${product.name}</h3>
