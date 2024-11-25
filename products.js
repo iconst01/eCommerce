@@ -7,14 +7,12 @@ function loadProducts() {
     .then((data) => {
       //selects the container where products will be display using querySelector
       const productContainer = document.querySelector(".product-container");
-
       // Iterate through the products array and create a card for each product
       data.forEach((product) => {
         //creates a new div element for each product card
         const productCard = document.createElement("div");
         //adds 'product-card' class to the new div for styling
         productCard.classList.add("product-card");
-
         //set the inner html of the product card, populating the data from the json
         productCard.innerHTML = `  
                     <img src="${product.image}" alt="${product.name}"> //
@@ -30,6 +28,5 @@ function loadProducts() {
     //handle any errors in fetching the data
     .catch((error) => console.error("Error loading product data:", error));
 }
-
-// Call the function to load products when the page loads
+// event liistner that runs when DOM contet is loaded
 document.addEventListener("DOMContentLoaded", loadProducts);
